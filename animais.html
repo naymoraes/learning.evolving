@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Animais</title> 
+</head>
+<body>
+   <title>Classificação de Tabela de Animais</title>
+ <style>
+     table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #ca9595;
+        }
+        tr:nth-child(even) {
+            background-color: #aca9dd;
+        }
+ </style>
+ </head>
+ <body>
+             <center><h1>Classificação de Tabela de Animais</h1></center> 
+    <table id="animalTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Nome</th>
+                <th onclick="sortTable(1)">Tipo</th>
+                <th onclick="sortTable(2)">Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Josh</td>
+                <td>Coelho</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Noah</td>
+                <td>Cahorro</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Jack</td>
+                <td>Gato</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Simon</td>
+                <td>Esquilo</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Filó</td>
+                <td>Capivara</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Kath</td>
+                <td>Porquinho da India</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>Cavalo</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Luke</td>
+                <td>Gato</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Simba</td>
+                <td>Leão</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Romeu</td>
+                <td>Golfinho</td>
+                <td>6</td>
+
+
+            </tr>
+    
+        </tbody>
+    </table>
+</body>
+</html>
