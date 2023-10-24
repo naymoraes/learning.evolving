@@ -1,0 +1,32 @@
+/* estilo-disney.css */
+body{
+    background-color: beige;
+}
+table {
+    font-family: Arial, sans-serif;
+    background: pink;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #444;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ca3fac;
+}
+
+th {
+    background-color: #70206e;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #c7616f;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+}
